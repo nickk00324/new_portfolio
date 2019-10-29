@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Fragment, useState } from 'react';
+import Title from './Title';
+import Social from './Social';
+import Navbar from './Navbar';
+import Scroll from './Scroll'
+import CardContainer from './CardContainer';
+import selectedVideo from './videos';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+  const [category, setCategory] = useState('art');
+
+  const displayNewCategory = (cat) => {
+    setCategory(cat);
+  };
+
+  return(
+    <Fragment>
+      {console.log(selectedVideo)}
+      <video autoPlay loop muted className="video">
+        <source src={selectedVideo} type='video/mp4'/>
+      </video>
+      <Title />
+      <Social />
+      <Navbar displayNewCategory={displayNewCategory}/>
+      <Scroll>
+        <CardContainer category={category}/>
+      </Scroll> 
+    </Fragment>
+  )
 }
+
+
 
 export default App;

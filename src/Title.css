@@ -1,0 +1,10 @@
+.main-title {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    font-size: 10vw;
+    padding: 20px 0;
+    background: -webkit-linear-gradient(top, #e83fff 0%,#9e4fe2 40%,#05abe0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}

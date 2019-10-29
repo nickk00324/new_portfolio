@@ -1,0 +1,31 @@
+.card{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.outer-card{
+    display: inline-block;
+    margin: 30px;
+}
+
+
+.card-image{
+    width: 400px;
+}
+
+.card a {
+    text-decoration: none;
+    background-color: rgb(255, 126, 206);
+    color: rgb(24, 255, 243);
+    transition: all .5s;
+}
+
+.card a:hover{
+    color: rgb(255, 126, 206);
+    background-color: rgb(24, 255, 243);
+    transform: scale(1.3);
+}
+

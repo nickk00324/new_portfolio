@@ -1,0 +1,19 @@
+.social-links{
+    text-align: center;
+}
+
+.icon {
+    padding: 0 20px;
+    font-size: 30px;
+    color: lightpink;
+    transition: all .7s;
+}
+
+.fab, .far{
+    transition: all .7s;
+}
+
+.far:hover, .fab:hover{
+    transform: scale(1.5);
+    color: lightblue;
+}
