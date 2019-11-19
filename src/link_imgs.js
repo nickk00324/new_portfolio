@@ -9,12 +9,14 @@ import talu from './assets/imgs/links/talu.png';
 import ty from './assets/imgs/links/ty.png';
 import youtube_pco from './assets/imgs/links/youtube_pco.png';
 import demongraphics from './assets/imgs/links/demongraphics.png';
+import not_real_twitter from './assets/imgs/links/not_real_twitter.png';
 
 export default [
     [fucking_fun, 'http://www.lulu.com/shop/nick-kochornswasdi/were-gonna-have-fucking-fun/paperback/product-24134341.html', 
     "poetry book 1: we're gonna have fucking fun"],
     [haunts, 'http://haunts.xyz/', 'website design: haunts'],
     [misc_games, 'https://night-hugs.itch.io/', 'misc games'],
+    [not_real_twitter, 'https://fast-atoll-83889.herokuapp.com/#/', 'fullstack app with auth/sessions'],
     [mystery_box, 'https://vimeo.com/354994745', 'performance: mystery box(fantastic world)'],
     [nkg, 'https://nickkochornswasdigallery.com/', 'gallery and website design'],
     [nk_com, 'https://nickk00324.github.io', 'old website design'],
