@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a124b3d19388f229de859d5c879e1d06",
+    "revision": "df7bd633e49fc32ad27db9426cd69d59",
     "url": "/index.html"
   },
   {
-    "revision": "11df02d7341420e19ee2",
-    "url": "/static/css/main.9518562a.chunk.css"
+    "revision": "a7a527170f7ee2484a5c",
+    "url": "/static/css/main.5c4cf83e.chunk.css"
   },
   {
-    "revision": "443a7c28ec3b43a4e9c3",
-    "url": "/static/js/2.c57a2973.chunk.js"
+    "revision": "cfb469ade2a9b69bc9c5",
+    "url": "/static/js/2.16366d6e.chunk.js"
   },
   {
-    "revision": "11df02d7341420e19ee2",
-    "url": "/static/js/main.25202947.chunk.js"
+    "revision": "a7a527170f7ee2484a5c",
+    "url": "/static/js/main.47224e3f.chunk.js"
   },
   {
     "revision": "8dab92c437c11936d900",
@@ -86,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "59a45d3c0d8f383d989d456ab4768f08",
     "url": "/static/media/fucking_fun_cover.59a45d3c.png"
+  },
+  {
+    "revision": "069b3ea496dabab175e78de9c7ce44fd",
+    "url": "/static/media/future_ghosts_web.069b3ea4.jpg"
   },
   {
     "revision": "f9b2197500b3c827b956b4269f30fd71",
@@ -172,6 +176,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/not_pee.68af17cd.jpg"
   },
   {
+    "revision": "40f71d8fa477137f9436e3e396aafe57",
+    "url": "/static/media/not_real_twitter.40f71d8f.png"
+  },
+  {
     "revision": "4a798e798bf4b73187d724faefea01f6",
     "url": "/static/media/perfection.4a798e79.jpg"
   },
@@ -198,6 +206,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bc65d34a3a5e1a84233a705e0e086f1d",
     "url": "/static/media/ty.bc65d34a.png"
+  },
+  {
+    "revision": "c39ab10023a9bc0096f2e3d99beb1497",
+    "url": "/static/media/why_does_low_res.c39ab100.jpg"
   },
   {
     "revision": "4e6bf46a4f900e2ed2a5625facc11df9",
